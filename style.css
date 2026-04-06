@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #1950b0;
+  background: radial-gradient(circle,
+      rgba(25, 80, 176, 1) 0%,
+      rgba(23, 63, 130, 1) 100%);
+}
+
+.error-img {
+  max-width: 420px;
+}
+
+.error-code {
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffdd57;
+}
+
+.error-text {
+  font-size: 18px;
+  color: #e6ecff;
+}
+
+@media (max-width: 768px) {
+  .error-img {
+    max-width: 280px;
+    margin-bottom: 30px;
+  }
+}
